@@ -1,0 +1,179 @@
+.maindiv{
+    width:100%;
+    background-image:linear-gradient(to right,red,blue,yellow);
+    margin-top: -10px;
+    height:60px;
+    position:fixed;
+}
+ul {
+    float: right;
+    list-style-type: none;
+}
+
+ul,
+li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 20px;
+    transition: 0.6s ease;
+    color: orangered;
+    border: 1px solid transparent;
+    margin-top: -50px;
+
+}
+
+a:hover {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px black;
+}
+
+.icon {
+    height: 30px;
+    margin-top: 12px;
+    width: 150px;
+    margin-left: 50px;
+    position: fixed;
+}
+img{
+    margin-left:300px;
+    margin-top: 80px;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+h1{
+    text-align: left;
+    padding:10px;
+    color:red;
+}
+h2{
+    margin-left: 10px;
+    margin-top: -10px;
+    color: blue;
+}
+th{
+    padding:8px;
+    background-color:orange;
+    font-size:20px;
+    
+}
+th:hover{
+background-color:crimson;
+box-shadow: 3px 3px 3px green;
+}
+td{
+    border-radius: 10px;
+    padding:8px;
+    background-color: yellowgreen;
+    font-weight: bold;
+}
+td:hover{
+    cursor: pointer;
+ box-shadow: 3px 3px 3px blue;
+    background-color:pink;
+    color:blue;
+}
+.lgn{
+    background-image:linear-gradient(to right,blue,pink);
+     width:500px;
+     margin-left: 700px;
+     margin-top:-290px;
+     height:350px;
+     padding:10px;
+     border-radius: 20px;
+     box-shadow: 7px 7px 7px gray;
+ }
+ h1{
+     text-align: center;
+     color:orangered;
+ }
+
+ p{
+     margin-left: 20px;
+     color:orangered;
+ }
+ input{
+     width:400px;
+     margin-left: 20px;
+     height: 25px;
+     border-color: green;
+     border-radius: 20px;
+     font-size: 15px;
+     color:black;
+ }
+ input:hover{
+     background-color:green;
+     color:white;
+     cursor: pointer;
+ }
+ .submit{
+ background-color: orangered;
+ height:35px;
+ margin-top: 40px;
+ border-radius: 20px;
+ border-color:darkviolet;
+ margin-left:175px;
+ font-size: 15px;
+ color:blue;
+ width:150px;
+ }
+ .submit:hover{
+     cursor: pointer;
+     background-color:#00ff00 ;
+     color:orangered;
+ }
+ .parentdiv {
+    display: flex;
+    margin-left: 50px;
+    gap: 10px;
+    margin-top: -50px;
+    margin-left: -3px;
+}
+
+#child1,
+#child2 {
+    border: 1px solid black;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    background-image:linear-gradient(red,green,blue);
+    color: white;
+    box-shadow: 7px 7px 7px grey;
+}
+
+#child2:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,blue,green,red);
+}
+#child1:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,blue,green,red);
+}
+.features{
+   
+    margin-top: 100px;
+    margin-left: -440px;
+    box-shadow: 7px 7px 7px red;
+    padding: 10px;
+    background-image:linear-gradient(yellow,orange);
+}
+#feature{
+    color: black;
+   font-size: 20px;
+}
+.features:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right,blue,pink,green);
+    color:black;
+    border-radius: 10px;
+}

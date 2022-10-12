@@ -1,0 +1,138 @@
+#maindiv {
+    width: 100%;
+    background-image: linear-gradient(to right, red, blue, yellow);
+    height: 55px;
+    position: fixed;
+    margin-top: -13px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+
+}
+
+ul li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.6s ease;
+    color: white;
+    border: 1px solid transparent;
+
+
+}
+
+a:hover {
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    color: black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px green;
+
+}
+
+.logo {
+    height: 30px;
+    margin-top: 12px;
+    width: 150px;
+    margin-left: 50px;
+
+}
+
+.image {
+    margin-left: 350px;
+    margin-top: 13px;
+}
+
+.image:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+#venue {
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+}
+
+P {
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+input {
+    margin-left: 30px;
+    height: 50px;
+    width: 150px;
+    color: blue;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: aqua;
+}
+
+input:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+}
+
+form {
+    margin-left: 400px;
+    width: 500%;
+}
+
+.points {
+    margin-left: 500px;
+    margin-top: -150px;
+}
+
+th {
+    padding: 8px;
+    background-color: orange;
+    font-size: 20px;
+}
+
+td {
+    padding: 8px;
+    background-color: yellowgreen;
+    font-weight: bold;
+}
+
+td:hover {
+    cursor: pointer;
+
+    background-color: pink;
+    color: blue;
+}
+
+.summery {
+    border: 1px solid black;
+    margin-left: -480px;
+    margin-right: 520px;
+    padding: 20px;
+    background-image: linear-gradient(to right, red, green, blue);
+}
+
+h2 {
+    margin-left: -480px;
+    color: orangered;
+}
+
+.class {
+    color: aliceblue;
+}
+
+.varient {
+    color: chartreuse;
+}

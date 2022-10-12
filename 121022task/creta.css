@@ -1,0 +1,161 @@
+.maindiv {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    margin-top: -420px;
+    background-image: linear-gradient(to right, red, blue, yellow);
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+}
+
+ul,
+li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 20px;
+    transition: 0.6s ease;
+    color: white;
+    border: 1px solid transparent;
+    margin-top: -50px;
+
+}
+
+a:hover {
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px orange;
+}
+
+.logo {
+    height: 30px;
+    margin-top: 12px;
+    width: 150px;
+    margin-left: 50px;
+    position: fixed;
+}
+
+img {
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+h2 {
+    margin-left: 70px;
+    font-size: 30px;
+    margin-top: -50px;
+    color: black;
+}
+
+.parentdiv {
+    display: flex;
+    margin-left: 50px;
+    gap: 10px;
+
+}
+
+#child1,
+#child2 {
+    border: 1px solid black;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    background-image: linear-gradient(to right, red, blue);
+    box-shadow: 7px 7px 7px grey;
+}
+
+#child1:hover {
+    cursor: pointer;
+    background-image: linear-gradient(red, green, blue);
+}
+
+#child2:hover {
+    cursor: pointer;
+    background-image: linear-gradient(red, green, blue);
+}
+
+p {
+    color: blue;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+button {
+
+    margin-top: 20px;
+    height: 30px;
+    width: 150px;
+    border-color: orangered;
+    color: green;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: aqua;
+    color: blue;
+}
+
+tr {
+    border-color: 2px black;
+}
+
+table {
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.features {
+    margin-left: 800px;
+    margin-top: -220px;
+}
+
+h3 {
+    color: darkgoldenrod;
+}
+
+th {
+    color: orangered;
+    background-color: cyan;
+    border-radius: 20px;
+}
+
+td {
+    color: blue;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.summary {
+    border: none;
+    margin-top: -100px;
+    margin-left: 50px;
+    width: 600px;
+    background-image: linear-gradient(pink, yellow);
+    padding: 10px;
+    border-radius: 20px;
+    color: royalblue;
+}
+
+h4 {
+    color: rgb(238, 13, 13);
+}
