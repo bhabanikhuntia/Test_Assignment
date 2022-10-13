@@ -1,0 +1,35 @@
+
+
+.calculator table{
+    background-color: rgb(225, 199, 199);
+    animation:sashi 10s infinite;
+}
+
+@keyframes sashi{
+    50%{background-color: black;}
+}
+
+/* .calculator::shadow{
+    color-scheme: black;
+} */
+
+#display{
+    height: 35px;
+}
+
+#display:hover{
+    background-color: rgb(228, 236, 238);
+}
+
+.value{
+    margin-left: 40px;
+    margin: 20px;
+    
+}
+.value1{
+    background-color: aquamarine;
+}
+
+.value:hover{
+    background-color: rgb(170, 117, 117);
+}

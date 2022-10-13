@@ -1,0 +1,56 @@
+<! DOCTYPE html>
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Calculator using HTML Example
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <!-- CSS property to create interactive  
+        calculator interface -->
+    <link rel="stylesheet" href="../static/css/main.css">
+  </head>
+
+  <body>
+    <div class="title" align="center">
+      <h1>Calculator</h1>
+    </div>
+    <form name="Calculator" class="calculator">
+      <table border="2" align="center" cellpadding="15" cellspacing="12" bgcolor="#c0c0c0">
+        <tr>
+          <td>
+            <input type="text" name="Input" Size="49" id="display">
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td class="value1">
+            <input type="button" name="one" style="font-size:30px" value=" 1 " OnClick="Calculator.Input.value += '1'" class="value">
+            <input type="button" name="two" style="font-size:30px" value=" 2 " OnCLick="Calculator.Input.value += '2'" class="value">
+            <input type="button" name="three" style="font-size:30px" value=" 3 " OnClick="Calculator.Input.value += '3'" class="value">
+            <input type="button" name="add" style="font-size:30px" value=" + " OnClick="Calculator.Input.value += ' + '" class="value">
+            <br>
+            <input type="button" name="four" style="font-size:30px" value=" 4 " OnClick="Calculator.Input.value += '4'" class="value">
+            <input type="button" name="five" style="font-size:30px" value=" 5 " OnCLick="Calculator.Input.value += '5'" class="value">
+            <input type="button" name="six" style="font-size:30px" value=" 6 " OnClick="Calculator.Input.value += '6'" class="value">
+            <input type="button" name="minus" style="font-size:30px" value=" - " OnClick="Calculator.Input.value += ' - '" class="value">
+            <br>
+            <input type="button" name="seven" style="font-size:30px" value=" 7 " OnClick="Calculator.Input.value += '7'" class="value">
+            <input type="button" name="eight" style="font-size:30px" value=" 8 " OnCLick="Calculator.Input.value += '8'" class="value">
+            <input type="button" name="nine" style="font-size:30px" value=" 9 " OnClick="Calculator.Input.value += '9'" class="value">
+            <input type="button" name="mul" style="font-size:30px" value=" * " OnClick="Calculator.Input.value += ' * '" class="value">
+            <br>
+            <input type="button" name="clear" style="font-size:30px" value=" c " OnClick="Calculator.Input.value = ''" class="value">
+            <input type="button" name="zero" style="font-size:30px" value=" 0 " OnClick="Calculator.Input.value += '0'" class="value">
+            <input type="button" name="DoIt" style="font-size:30px" value=" = " OnClick="Calculator.Input.value = eval(Calculator.Input.value)" class="value">
+            <input type="button" name="div" style="font-size:30px" value=" / " OnClick="Calculator.Input.value += ' / '" class="value">
+            <br>
+          </td>
+
+        </tr>
+      </table>
+    </form>
+  </body>
+
+  </html>
