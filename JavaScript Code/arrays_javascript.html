@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+            
+            var num =[20, 15, 44, 62, 50, 73, 33]
+            var large = 0;
+            for ( let i=0; i<num.length; i++){
+                if (num[i]>large){
+                    large= num[i];
+                }
+                    
+                }
+            console.log(`The largest number in the array: ${large}`);
+
+            var arr = [20, 15, 44, 62, 50, 73, 33];
+            console.log(Math.max(...arr));
+
+            var arr = [20, 15, 44, 62, 50, 73, 33];
+            console.log(Math.min(...arr));
+
+            var arr = [20, 15, 44, 62, 50, 73, 33];
+            console.log(Math.max.apply(Math,arr));
+
+            var arr = [20, 15, 44, 62, 50, 73, 33];
+            console.log(Math.min(...arr));
+            
+        </script>
+    </body>
+</html>
