@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>setTimeout and setInterval</title>
+    </head>
+    <body>
+        <h2>setTimeout and setInterval</h2>
+
+        <script>
+            var inter = 0;
+            var msgDisplay = setInterval(function(){
+                inter ++;
+                alert('Login or SignUp !!');
+                if(inter == 5){
+                    clearInterval(msgDisplay);
+                }
+            }, 5000)
+            
+        </script>
+    </body>
+</html>

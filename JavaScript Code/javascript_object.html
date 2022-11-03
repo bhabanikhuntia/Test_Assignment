@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>
+        Student Information
+    </title>
+  </head>
+
+  <body>
+    <h1>Student Information</h1>
+    <script>
+     var student_data = {
+        'Name' : "Sanjay Dash",
+        'Roll_N0' : "2022A32",
+        'Age' : 15,
+        'Gender' : "Male",
+        'Class': 10,
+        'School_Name' : "Nirmala Convent High School",
+        'Marks': {
+          'Math' : 92,
+          'English' : 85,
+          'MIL' : 79,
+          'Science' : 84,
+          'Hindi' : 88,
+          'Total_Marks' : 428,
+          'Average' : 85.6,
+          'Pass': true
+        }
+     }
+     console.log(student_data);
+     console.log(student_data.Marks);
+
+     if (student_data.Marks.Pass == true) {
+        alert("Yes");
+     }
+     else{
+        alert("No");
+     }
+    </script>
+  </body>
+</html>

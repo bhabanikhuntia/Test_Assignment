@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Information</title>
+    </head>
+    <body>
+        <h2>Personal Data</h2>
+
+        <script>
+
+            var personal_info = {
+                'first_name' : "Smrutirekha",
+                'last_name' : "Panda",
+                'contact_no' : [7855872234, 9937260558],
+                'mail_id' : "smrutirekhap.panda@gmail.com",
+                'address' :{
+                   'permanent': {
+                        'House_no' : "2L23",
+                        'Nearby_locator' : " Near the Government Hospital",
+                        'District' : "Keonjhar",
+                        'Pin' : 758001,
+                    },
+                    'Office' : {
+                        'House_no' : "9R32",
+                        'Nearby_locator' : "Chandrasekharpur",
+                        'City' : "Bhubaneswar",
+                        'Pin' : 751024,
+                    }
+                }
+                    
+                }
+
+                console.log(personal_info);
+                console.log(personal_info.address);
+                console.log(personal_info.address.permanent);
+                console.log(personal_info.address.Office);
+                console.log(personal_info.address.Office.City);
+
+
+            
+        </script>
+    </body>
+</html>
