@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaSript|Sashi</title>
+</head>
+
+<body>
+    <p id="demo">hello</p>
+
+    <script>
+        var person = {
+            First_Name: "Sashibhusan",
+            Last_Name: "Roul",
+            Cont_No: [9345530763],
+            mail_id: "sashiroul40@gmail.com",
+            Address: {
+                permanent: {
+                    vill: "Raintira",
+                    post: "Adia",
+                    Block: "Bonth",
+                    PS: "Agarpada",
+                    Dist: "Bhadrak",
+                    State: "Odisha",
+                    pin: 756115
+                },
+                office: {
+                    House_No: 102,
+                    place: "Rupali Square,Sashid Nagar,BBSR",
+                    Dist: "Khordha",
+                    State: "Odisha",
+                    pin: 786116,
+                }
+            }
+        };
+        console.log(`Contact_Number:${person.Cont_No}`);
+        console.log(person.Address);
+        console.log(`Block:${person.Address.permanent.Block}`);
+
+
+        //.............................................................................................................
+        //STUDENT_DETAILS
+        //.............................................................................................................
+
+        var Student = [
+            {
+                class:12,
+                name: "Sashibhusan Roul",
+                Age: "22",
+                Gender: "Male",
+                Class: 12,
+            },
+            {
+                class:13,
+                Math: 92,
+                che: 88,
+                phy: 80,
+                bio: 82,
+                eng: 72,
+                Odia: 88,
+            }
+        ];
+        //console.log(Student);
+        for(let i=0;i<Student.length;i++){
+            var Stu_Class=Student[i].class;
+            console.log(Stu_Class);
+        }
+        
+    </script>
+</body>
+
+</html>

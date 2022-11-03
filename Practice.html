@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaSript|Sashi</title>
+</head>
+
+<body>
+    <p id="demo">hello</p>
+
+    <script>
+        //var num=[];
+        //console.log(Math.min(34,100,122,1111,5555));
+        // var Months=["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November","December"];
+        //var Days=["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"]
+        //var newDate=new Date();
+        //console.log(`${newDate.getDate()} -`,Months[newDate.getMonth()],`/${Days[newDate.getDay()]}`,`/${newDate.getFullYear()}`,`/Time:>${newDate.getHours()}`,`${newDate.getMinutes()}`,`${newDate.getSeconds()}`);
+
+        //.....................................................................
+
+        //for(let i = 0 ; i< 5 ; i++){
+        //   setTimeout(function(){
+        //  console.log(alert("login First To See Answer"+i));
+        //  }, 5000)
+        //  }
+
+        //.....................................................................
+
+        var person = {
+            First_Name: "Sashibhusan",
+            Last_Name: "Roul",
+            Cont_No: 9348530763,
+            mail_id: "sashiroul40@gmail.com",
+            Address: [permanent = {
+                vill: "Raintira",
+                post: "Adia",
+                Block: "Bonth",
+                PS: "Agarpada",
+                Dist:"Bhadrak",
+                State:"Odisha",
+                pin:756115
+            },
+            office = {
+                House_No:102,
+                place:"Rupali Square,Sashid Nagar,BBSR",
+                Dist:"Khordha",
+                State:"Odisha",
+                pin:786116,
+            }]
+            //Age:22,
+            //Hight:"5.9inch",
+            //Highest_Qualification:"B-Tech",
+            //SGPA:8.7,
+            //College:"Gandhi Engineering College,Bhubaneswar",
+            //Tranning_Continu:true,
+            //Adress:"Agarpada,Bhadrak,Odisha,756115",
+
+        };
+        console.log(person);
+        if (person.Tranning_Continu == true) {
+            confirm("Yes,Training Continuing");
+        }
+        else {
+            confirm("Non,Training is Continuing");
+        }
+
+        var Marks = {
+            Class: 12,
+            Math: 92,
+            che: 88,
+            phy: 80,
+            bio: 82,
+            eng: 72,
+            Odia: 88
+        }
+        console.log(Marks);
+        console.log(`Math:${Marks.Math}`, `,Phy:${Marks.phy}`, `,Che:${Marks.che}`, `,Bio:${Marks.bio}`, `,Eng:${Marks.eng}`, `,Odia:${Marks.Odia}`);
+        console.log(`Totalmark:${Marks.Math + Marks.che + Marks.phy + Marks.bio + Marks.eng + Marks.Odia}`, `,Percenteg:${(Marks.Math + Marks.che + Marks.phy + Marks.bio + Marks.eng + Marks.Odia) / 600 * 100}%`)
+    </script>
+</body>
+
+</html>
