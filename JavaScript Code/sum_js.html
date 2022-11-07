@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Add two number in Javascript using DHTML
+        </title>
+        <style>
+            body{
+                background-image: url("https://static.vecteezy.com/system/resources/previews/000/432/700/original/font-design-for-word-math-with-happy-kids-vector.jpg");
+                background-size: cover;
+            }
+            .box{
+                background: azure;
+                width: 300px;
+                height: 330px;
+                border: 10px solid greenyellow;
+                padding-left: 80px;
+                padding-left: 80px;
+                margin-left: 550px;
+                margin-top: 180px;
+                color: brown;
+                font-size: 20px;
+                border-radius: 20px;
+            }
+            .text{
+                color: blue;
+                font-size: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+    <div class="box">
+        <p>First value is: </p>
+        <input type="text" id="first"><br>
+        <p>Second value is: </p>
+        <input type="text" id="second">
+        <p class="text">The Sum of 2 number is: <b id ="final"></b></p>
+        <button onclick="add()">Click me</button>
+    </div>
+        <script>
+            function add(){
+                if(document.getElementById('first').value !='' && document.getElementById('second').value != ''){
+                    document.getElementById('final').innerHTML =
+                    parseInt(document.getElementById('first').value) + parseInt(document.getElementById('second').value)
+                }
+                else{
+                    document.getElementById('final').innerHTML = '0';
+                }
+            }
+        </script>
+        
+
+    </body>
+    </html>
