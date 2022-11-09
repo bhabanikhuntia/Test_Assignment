@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bulb ON-OFF using JavaScript</title>
+        <style>
+            body{
+                background-image: url("https://designshack.net/wp-content/uploads/bubble-background.jpg");
+                background-size:cover ;
+                margin: 0;
+                padding: 0;
+            }
+            h1{
+                color: brown;
+                padding: 40px;
+                text-align: center;
+                font-size: 30px;
+                background-color: #eee52a;
+            }
+            #light_off{
+                height: 400px;
+                width: 450px;
+                margin-left: 400px;
+                padding: 30px;
+            }
+            button{
+                width: 100px;
+                height: 80px;
+                background-color: aquamarine;
+                border-radius: 10px;
+                font-size:20px ;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Bulb ON/OFF Function</h1>
+        <img src="bulb_off.png" id="light_off">
+        <button onclick="bulb_on()">ON</button>
+        <button onclick="bulb_off()">OFF</button>
+        <script>
+            function bulb_on() {
+                document.querySelector("#light_off").src="bulb_on.png";
+            }
+            function bulb_off() {
+                document.querySelector("#light_off").src="bulb_off.png";
+            }
+
+        </script>
+
+    </body>
