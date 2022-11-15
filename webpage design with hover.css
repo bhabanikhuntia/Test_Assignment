@@ -1,0 +1,105 @@
+body{
+    background-image:url("./../pictures/shift.jpg");
+    background-size:cover;
+}
+nav{
+    background-color:#5c8a8a;
+    line-height:50px;
+    overflow:hidden;
+}
+nav a{
+    color:orangered;
+    margin:12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:20px;
+    padding:5px;
+}
+nav a.container{
+    background-color:blue;
+    width:20px;
+}
+nav a:hover{
+    color:black;
+    background-color:aqua;
+}
+.maindiv{
+    border:1px solid black;
+    margin-left:450px;
+    margin-right:450px;
+    padding:10px;
+}
+h2{
+    color:blue;
+    text-align: center;
+}
+p{
+    margin-left:25px;
+    color:#ff5500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+input{
+    margin-left:25px;
+    padding:5px;
+    background-color:lightgray;
+    border-radius:25px;
+    border-color:blueviolet;
+}
+#checkbox{
+    margin-right:20px ;
+}
+#inputf{
+    width: 85%;
+}
+.loginbtn{
+    border-radius: 50px;
+    margin-left:150px;
+    width:110px;
+    padding:5px;
+    font-weight:bold;
+    background-color:burlywood;
+    text-decoration: none;
+}
+.createaccount{
+    border-radius:60px;
+    margin-left:120px;
+    padding:7px;
+    background-color:darkblue;
+    color:aliceblue
+}
+.socialmedia{
+    margin:30px auto;
+    text-align: center;
+}
+.socialmedia img{
+    width:30px;
+    margin:0 8px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    border-radius: 50px;
+}
+#follow{
+    color:maroon;
+    text-align: center;
+    margin-right: 35px;
+    font-size:30px;
+}
+.socialmedia img:hover{
+    cursor: pointer;
+    background-color:green;
+}
+.loginbtn:hover{
+    background-color:darkcyan;
+    cursor:pointer
+}
+.createaccount:hover{
+    background-color:deepskyblue;
+    cursor:pointer
+}
+#inputf:hover{
+    background-color:#00bfff;
+    cursor:pointer
+}
+.loginbtn a{
+    text-decoration: none;
+}
