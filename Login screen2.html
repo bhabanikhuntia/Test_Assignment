@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>Login and Registration form</tittle>
+        <link rel="stylesheet" href="Login screen2.css">
+    </head>
+    <body>
+        <div class="Bhadrak">
+            <div class="Deba">
+                <div id="Bhubaneswar"></div>
+                <button type="button" class="button" onclick="login()">Log in</button>
+                <button type="button" class="button"onclick="Register()">Register</button>
+            </div>
+            <form id="Login" class="Codekart">
+                <input type="text" class="name" placeholder="USER ID">
+                <input type="text" class="name" placeholder="ENTER PASSWORD">
+                +
+                <input type="checkbox" class="checkbox"><span>REMEMBER PASSWORD</span>
+                <button class="submit" class="submit">LOGIN</button>
+            </form>
+            <form id="Register" class="Codekart">
+                <input type="text" class="name" placeholder="USER ID">
+                <input type="email" class="name" placeholder="E-mail id">
+                <input type="checkbox" class="checkbox"><span>I agree terms and conditions</span>
+                <button class="submit" class="submit">REGISTER</button>
+            </form>
+        </div>
+        <script>
+            var x=document.getElementById("Login")
+            var y=document.getElementById("Register")
+            var z=document.getElementById("Bhubaneswar")
+            function Register(){
+                x.style.left="-400px";
+                y.style.left="50px";
+                z.style.left="110px";
+            }
+            function Login(){
+                x.style.left="50px";
+                y.style.left="450px";
+                z.style.left="0px";
+            }
+        </script>
+    </body>
+</html>
