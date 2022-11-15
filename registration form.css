@@ -1,0 +1,31 @@
+body{
+    background-image:url("./../Pictures/Robot.jpg");
+    background-size: cover;
+}
+div{
+    border:2px solid aqua;
+    margin-left:400px;
+    margin-right:400px;
+    width:450px;
+    border-radius:20px;
+}
+p{
+    display:block;
+    font-size:20px;
+    margin-left:5px;
+    color:blue;
+    display:inline-block;
+}
+.classes{
+    color:red;
+    text-align:center;
+}
+form{
+    color:orangered;
+}
+h1{
+    color:aqua;
+}
+h4{
+    color:gold;
+}
