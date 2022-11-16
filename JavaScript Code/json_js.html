@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JSon in Javascript</title>
+    </head>
+    <body>
+        <p id="json"></p>
+        <script>
+            //Object
+            
+        var student_data = {
+            'Name' : "Sanjay Dash",
+            'Roll_N0' : "2022A32",
+            'Age' : 15,
+            'Gender' : "Male",
+            'Class': 10,
+        }
+        console.log(student_data);
+        //JSON stringify
+
+        let data = {
+            "employees" :[
+            {"f_name":"Smruti", "l_name" :"Panda", "age":23},
+            {"f_name":"Sanjay", "l_name" :"Sahoo", "age":28},
+            {"f_name":"Lipsha", "l_name" :"Das", "age":25},
+            {"f_name":"Anita", "l_name" :"Mishra", "age":22},
+            {"f_name":"Sunita", "l_name" :"Sahu", "age":26},
+        ]
+       }
+       console.log(JSON.stringify(data));
+       //JSON Parse
+
+       const data1 = '{"f_name":"Smruti", "l_name" :"Panda", "age":23}'
+       const obj = JSON.parse(data1);
+       document.getElementById('json').innerHTML=(obj.f_name +" " + obj.l_name + ", " + obj.age);
+
+            
+        
+        </script>
+    </body>
+</html>

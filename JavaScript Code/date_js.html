@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DateTime JavaScript</title>
+    </head>
+    <body>
+        <h2>DateTime in JavaScript</h2>
+        <script>
+            var month = ["January","February","March","April","May","June","July",
+            "August","September","October","November","December"];
+            var newMon = new Date();
+            console.log(month[newMon.getMonth()]);
+
+
+            var day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+            var newday = new Date();
+            console.log(day[newday.getDay()]);
+
+
+            var hour = new Date();
+            console.log(hour.getHours());
+            console.log(hour.getMinutes());
+            console.log(hour.getSeconds());
+            console.log(hour.getMilliseconds());
+            console.log(hour.getFullYear());
+
+            
+        </script>
+    </body>
+</html>

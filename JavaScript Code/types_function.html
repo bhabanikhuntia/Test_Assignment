@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Types of Function</title>
+    </head>
+    <body>
+        <h1>Types of Function examples</h1>
+        <script>
+            // Normal Function
+             function greeting() {
+                console.log('Welcome to the World !!')
+             }
+             greeting();
+            // Anonymous Function
+            let name =function() {
+                console.log('My name is Smruti');
+            };
+            name();
+            setTimeout(function(){
+                alert('Hello, Good Evening')
+            }, 2000);
+
+            //Arrow Function
+
+            let fruit = () => console.log('Mango is my favourite fruit !');
+            fruit();
+
+            //  Add two Array 
+
+            const fruits = ['Apple', 'Mango', 'Cherry', 'Grapes'];
+            const color = ['Green', 'Yellow', 'Red', 'Black'];
+             const mix = [fruits,...color];
+             console.log(mix);
+             const mix2 =[['Apple', 'Mango', 'Cherry', 'Grapes'], ...color];
+             console.log(mix2);
+
+             //Includes or Startswith Method
+
+             let text = "Hello, Good morning everyone"
+             if(text.includes('everyone')){
+                alert('True')
+             } else{
+                alert('false')
+             }
+             let text1 = "Hello, Good morning everyone"
+             if(text1.startsWith('H')){
+                alert('true')
+             } else{
+                alert('false')
+             }
+        </script>
+    </body>
+</html>
