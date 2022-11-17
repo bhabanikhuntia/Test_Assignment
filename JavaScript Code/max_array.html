@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maximum number in an array </title>
+    </head>
+    <body>
+        <h2>Find the maximum number in an array </h2>
+
+        <script>
+            function max_num (nums){
+                var max = nums[0];
+                for (let i = 0; i < nums.length; i++){
+                    if (nums[i] > max){
+                        max = nums[i];
+                    }
+                }
+                return max;
+            }
+            let nums = [9,2,4,-5,8,1,-23,41];
+            let max = max_num (nums);
+            console.log(`Maximum number is `, (max));
+            
+        </script>
+    </body>
+</html>

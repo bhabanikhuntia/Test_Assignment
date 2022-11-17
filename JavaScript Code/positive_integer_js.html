@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sum of digits of a positive integer number</title>
+    </head>
+    <body>
+        <h2>Calculate the sum of digits of a positive integer number</h2>
+
+        <script>
+            function sum_digits (num){
+                let sum = num.toString();
+                let sums = 0;
+                for(let char of sum){
+                    let digit = parseInt(char);
+                    sums += digit;
+                }
+                return sums;
+            }
+            let sums = sum_digits(23467189);
+            console.log(`Sum: `,(sums));
+        </script>
+    </body>
+</html>

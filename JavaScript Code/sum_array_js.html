@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sum of number in an array of numbers</title>
+    </head>
+    <body>
+        <h2>Calculate the sum of numbers in an array of numbers.</h2>
+
+        <script>
+            function sum_array (arr){
+                let sum = 0;
+                for (let i = 0; i < arr.length; i++){
+                    sum += arr[i];
+                }
+                return sum;
+            }
+            let arr = [3,4,1,6,8,5,9,12,32];
+            let sum = sum_array(arr);
+            console.log(sum);
+        </script>
+    </body>
+</html>
