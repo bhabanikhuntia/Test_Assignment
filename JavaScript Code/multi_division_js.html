@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiplication and Division of two numbers</title>
+        <style>
+            body{
+                margin: 30px;
+                background-image: url("math.jpg");
+                background-size: cover;
+            }
+            h2{
+               color:cornsilk;
+               padding: 35px;
+               text-align: center;
+               font-size: 30px;
+            }
+            p{
+                color:darkblue;
+            }
+            .index{
+                border: 5px solid blue;
+                width: 400px;
+                height: 220px;
+                margin-left: 450px;
+                margin-top: 90px;
+                border-radius: 30px;
+                color: crimson;
+                padding: 30px;
+                font-size: 22px;
+                background-color: bisque;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>Write JavaScript program to calculate multiplication and division of two numbers.</h2>
+        <form class="index">
+            First Number : <input type="text" id="f_num"><br><br>
+            Second Number : <input type="text" id="s_num"><br><br>
+            <input type="button" onClick="multiplyBy()" value="Multiply">
+            <input type="button" onClick="divideBy()" value="Divide">
+        
+        <p>
+            The result is : 
+            <span id = "result"></span>
+        </p>
+    </form>
+        <script>
+            function multiplyBy(){
+                num1 = document.getElementById("f_num").value;
+                num2 = document.getElementById("s_num").value;
+                document.getElementById("result").innerHTML = num1 * num2;
+            }
+            function divideBy(){
+                num1 = document.getElementById("f_num").value;
+                num2 = document.getElementById("s_num").value;
+                document.getElementById("result").innerHTML = num1 / num2;
+            }
+            
+               
+        </script>
+    </body>
+</html>

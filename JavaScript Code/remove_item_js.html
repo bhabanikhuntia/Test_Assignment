@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Remove item in JavaScript</title>
+    </head>
+    <body>
+        <h2>Program to specific item from an Array</h2>
+        <script>
+            function remove_item(array, n){
+                const new_array =[];
+                for(let i = 0; i < array.length; i++){
+                    if (array[i] != n){
+                        new_array.push(array[i]);
+                    }
+                }
+                return new_array;
+            }
+            const result =remove_item([2, 3, 4, 5, 8, 6, 9, 21, 15], 5);
+            console.log(result);
+        </script>
+    </body>
+</html>
