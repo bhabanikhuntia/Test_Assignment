@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Color change in JavaScript</title>
+    <style>
+        h1{
+            color: darkblue;
+            padding: 20px;
+        }
+        p{
+            color: darkred;
+            font-weight: bold;
+            padding: 15px;
+            font-size: 18px;
+        }
+        button{
+            border: 14px solid #3449;
+            background-color:aqua;
+            color: black;
+            padding: 15px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+  <h1>Hello World!</h1>
+  <p>This is a list</p>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <button>Press Me!</button>
+  <script>
+    document.querySelector("button").addEventListener("click", function(){
+        document.body.style.background = randColor();
+    });
+    function randColor() {
+        return (
+            "#" + 
+            (function co(lor) {
+                return (lor += [
+                    0,1,2,3,4,5,6,7,8,9,"a","b","c","d","e","f"]
+                    [Math.floor(Math.random() * 16)]) && lor.length == 6 
+                    ? lor 
+                    : co(lor);
+            
+            })("")
+        );
+    }
+  </script>
+</body>
+
+</html>
