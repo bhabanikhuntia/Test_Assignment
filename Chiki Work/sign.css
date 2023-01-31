@@ -1,0 +1,16 @@
+body{
+	background-color:#b3b3b3;
+}
+h1{
+	color:#005580;
+	text-align:center;
+}
+form{
+	background-color:#ddff99;
+	border:3px solid #333333;
+	width:350px;
+	height:700px;
+	margin-left:600px;
+	padding-left:50px;
+	padding-top:20px;
+}
